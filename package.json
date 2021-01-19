@@ -4,7 +4,9 @@
   "description": "team management system for testing purpose",
   "main": "src/app.js",
   "scripts": {
-    "test": "serve"
+    "test": "serve",
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "prettier '**/*.js' --write"
   },
   "repository": {
     "type": "git",
@@ -42,7 +44,8 @@
   },
   "lint-staged": {
     "**/*": [
-      "npx prettier --write ."
+      "npm run lint:fix",
+      "git add"
     ]
   }
 }
