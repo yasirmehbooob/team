@@ -45,6 +45,7 @@
   "lint-staged": {
     "**/*": [
       "npm run lint:fix",
+      "npx lint",
       "git add"
     ]
   }
