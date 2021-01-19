@@ -5,7 +5,7 @@
   "main": "src/app.js",
   "scripts": {
     "test": "serve",
-    "lint": "eslint '**/*.js'",
+    "lint": "eslint --fix --ext .js .",
     "lint:fix": "prettier '**/*.js' --write"
   },
   "repository": {
