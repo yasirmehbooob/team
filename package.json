@@ -41,5 +41,8 @@
     }
   },
   "lint-staged": {
-    "**/*": ["npx prettier --write ."]}
+    "**/*": [
+      "npx prettier --write ."
+    ]
+  }
 }
