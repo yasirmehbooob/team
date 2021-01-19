@@ -41,6 +41,6 @@
     }
   },
   "lint-staged": {
-    "**/*": "npx prettier --write . prettier --write --ignore-unknown"
+    "**/*": "npx prettier --write ."
   }
 }
